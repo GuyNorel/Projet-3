@@ -35,6 +35,10 @@ nav a{
     justify-content: space-between;
     padding-right: 20px;
 }
+nav :hover{
+    color: blue;
+    text-decoration: underline;
+}
 .premiere{
     background-color: darkslategray;
     padding: 50px 100px 100px 100px ;
@@ -220,7 +224,8 @@ strong{
     margin-bottom: 100px;
 }
 .paragraphe6{
-    background-color: rgba(245, 249, 253, 0.514);
+    height: 150px;
+    background: linear-gradient(1deg, rgb(247, 97, 97), rgb(247, 244, 244), rgb(231, 230, 230) );
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
@@ -245,12 +250,13 @@ strong{
     font-weight: bolder;
 }
 .div004 p{
-    background-color: rgba(226, 230, 230, 0.603);
     padding: 30px 5px 30px 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     width: 180px;
     text-align: center;
+    box-shadow: 5px 2px 20px 2px rgb(248, 246, 246);
+    border-radius: 3px;
 }
 .info{
     color: darkslategray;
